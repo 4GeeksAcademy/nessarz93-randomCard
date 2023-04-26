@@ -16,24 +16,7 @@ window.onload = function() {
   document.getElementById("up").style.color = colorAleatorio;
   document.getElementById("down").style.color = colorAleatorio;
 
-  const numeroCentral = [
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    10,
-    11,
-    12,
-    13,
-    "J",
-    "Q",
-    "K"
-  ];
+  const numeroCentral = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, "J"];
   document.getElementById("numeroAleatorio").innerText =
     numeroCentral[Math.floor(Math.random() * numeroCentral.length)];
 };
